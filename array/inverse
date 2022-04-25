@@ -1,0 +1,15 @@
+/* Make an algorithm to read an array of 10 numbers from the user and display the numbers in reverse order, that is, the elements inverted. */
+
+#include <iostream>
+using namespace std;
+int main()
+{
+ int v[10];
+ for(int i = 0; i < 10; i++ ){
+ cin >> v[i];
+ }
+ for(int i = 9; i >= 0; i--){
+ cout << v[i] << " | ";
+ }
+ return 0;
+}
