@@ -1,0 +1,17 @@
+/* Write an algorithm to read 20 elements into a vector and calculate the sum of the vector elements. */
+
+#include <iostream>
+using namespace std;
+int main()
+{
+ int vector [10];
+ int sum;
+ sum = 0;
+ for (int i = 0 ; i<10 ; i++){
+ cout << "Enter the "<< i+1 <<"º number: ";
+ cin >> vector [i];
+ sum = sum + vector [i];
+ }
+ cout << "The sum result is " << sum;
+ return 0;
+}
