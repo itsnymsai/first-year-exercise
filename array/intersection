@@ -1,0 +1,26 @@
+/* Write a program that reads two 6-position vectors of integers (A and B) and creates a third vector (C) with the intersection of the first two. If there is no intersection of A and B at a certain position, add the value -1 to that position in vector C. Then display the result of vector C. Use the for structure. */
+
+#include <iostream>
+using namespace std;
+int main()
+{
+ int a[6];
+ int b[6];
+ int c[6];
+ for(int i=0; i < 6; i++){
+ cin >> a[i];
+ }
+ for(int i=0; i < 6; i++){
+ cin >> b[i];
+ }
+ for(int i=0; i < 6; i++){
+ if (a[i] == b[i]){
+ c[i] = b[i];
+ }
+ else{
+ c[i] = -1;
+ }
+ cout << c[i] << " | ";
+ }
+ return 0;
+}
