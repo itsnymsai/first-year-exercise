@@ -1,3 +1,5 @@
+/* Based on your knowledge set the records below. Create an algorithm that asks the user to enter student and person data and print them on the screen: */
+
 #include <iostream>
 
 using namespace std;
