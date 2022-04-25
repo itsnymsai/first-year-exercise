@@ -1,3 +1,7 @@
+/* Write a program to register two customers of a store. The necessary information are: name, address and telephone. A record structure must be used for the construction
+of this register. */
+
+#include <iostream>
 using namespace std;
  struct Register{
  string name;
